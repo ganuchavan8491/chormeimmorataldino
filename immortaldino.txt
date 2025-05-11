@@ -1,0 +1,18 @@
+//immortal dino 
+var originalGameOver = Runner.prototype.gameOver;
+Runner.prototype.gameOver = function () {}
+
+//auto jump
+setInterval(function(){
+	var tRex = Runner.instance_.tRex;
+	var obstacles =
+runner.instance_horizon.obstacles;
+	if (obstacles.length>0) {
+		var obstacle = obestacles[0]
+
+		if (obstacle.xPos < 120 && obstacle.xPos > 0 && tRex.yPos >= 100) {
+			tRex.startJump();
+		}
+	}
+}, 10);
+
