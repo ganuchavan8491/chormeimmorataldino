@@ -29,7 +29,7 @@ This is a **modded version of the classic Chrome Dino game** where the player be
 
 ## 📁 Files
 
-- `immortal.js` → JavaScript snippet to activate immortality
+- `immortal.txt` → JavaScript snippet to activate immortality
 
 ---
 
